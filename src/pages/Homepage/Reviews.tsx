@@ -16,7 +16,7 @@ const Reviews = () => {
     })
   })
   return (
-    <div id="review" className="w-full pt-3 pb-4 lg:p-0  min-h-screen flex justify-center items-center">
+    <div id="review" className="w-full pt-3 pb-4 lg:p-0   min-h-screen flex justify-center items-center">
         <div className=" w-[90%] h-[90%]  flex flex-col items-center justify-center gap-10">
           <div className="text-center font-medium text-4xl  text-[#2e4b2e]">Customer reviews</div>
           <div className=" flex lg:flex-row flex-col items-center justify-center gap-17">

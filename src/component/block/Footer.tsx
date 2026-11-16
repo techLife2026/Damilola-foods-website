@@ -4,13 +4,13 @@ import logo from "../../assets/IMG2/Screenshot_2026-11-10_115151-removebg-previe
 
 const Footer = () => {
   return (
-    <div className=" w-full pt-3 pb-4 lg:p-0  min-h-100 flex  justify-center text-white items-center bg-green-800">
+    <div className="w-full max-w-full pt-3 pb-4 lg:p-0 min-h-100 overflow-x-hidden flex justify-center text-white items-center bg-green-800">
         <div className="w-[90%] h-[80%] flex flex-col  gap-7 lg:gap-3 justify-between ">
 
         <div className=" flex flex-col gap-7 lg:flex-row items-start justify-between">
             <div className="flex flex-col gap-4 lg:gap-7 ">
                 <div><img src={logo} className="w-40 lg:w-70" alt="" /></div>
-                <div className=" text-[16px] text-white  font-medium text-left lg:text-[18px] w-90 lg:w-140">Fresh ingredients, delicious meals, and unforgettable experiences. Bringing people together through the love of good food.</div>
+               <div className="text-[16px] text-white font-medium text-left lg:text-[18px] w-full max-w-full lg:w-140">Fresh ingredients, delicious meals, and unforgettable experiences. Bringing people together through the love of good food.</div>
             </div>
             <div className="flex flex-col gap-2 lg:gap-3 ">
                 <div className="text-2xl"><b>Quick Links</b></div>

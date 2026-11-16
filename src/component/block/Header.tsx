@@ -15,9 +15,9 @@ const Header = () => {
 
 
   return (
-    <div className="w-full h-20 fixed z-50 flex justify-center items-center bg-green-800 ">
-      <div className="w-[90%] h-[90%] flex gap-20 justify-between items-center">
-        <div><img src={logo} className="w-50 " alt="" /></div>
+    <div className=" fixed top-0 left-0 w-full h-20 z-50 flex justify-center items-center bg-green-800">
+      <div className="w-[90%] h-[90%] flex justify-between items-center">
+        <div><img src={logo} className=" lg:w-50 w-40 " alt="" /></div>
         <div className="lg:flex hidden items-center gap-10 text-white font-medium text-[20px]">
             <NavLink to="/">
                 <div className="hover:text-green-400 cursor-pointer">Home</div>
@@ -38,14 +38,14 @@ const Header = () => {
             <div className="hover:text-green-400 cursor-pointer">Contact</div>
             </NavLink>
         </div>
-        <div className=" lg:hidden">
+        <div className=" flex lg:hidden">
       { show ? (
-    <div  className="text-4xl text-white font-bold">
+    <div  className="text-2xl text-white font-bold">
 
      <ImCancelCircle  onClick={dropdown}/>
   </div>
   ) : (
-  <div className="text-4xl text-white font-bold">
+  <div className="text-2xl text-white font-bold">
            <BsMenuButton  onClick={dropdown}/>
   </div>
   )}
