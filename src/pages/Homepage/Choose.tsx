@@ -27,17 +27,17 @@ const Choose = () => {
             <h2 className=" text-3xl font-bold">Fresh Ingredients</h2>
             <p className=" text-center">We use carefully selected ingredients for delicious meals</p>
         </div>
-         <div data-aos="zoom-in" data-aos-delay="1000" className=" bg-white text-black w-80 rounded-2xl flex flex-col justify-center items-center h-40">
+         <div data-aos="zoom-in" data-aos-delay="400" className=" bg-white text-black w-80 rounded-2xl flex flex-col justify-center items-center h-40">
             <SiNicehash className=" text-3xl text-[green]" />
             <h2 className=" text-3xl font-bold">Amazing Taste</h2>
             <p className=" text-center">Every dish is prepared with care and attention.</p>
         </div>
-         <div data-aos="zoom-in" data-aos-delay="2000" className=" bg-white text-black w-80 rounded-2xl flex flex-col justify-center items-center h-40">
+         <div data-aos="zoom-in" data-aos-delay="600" className=" bg-white text-black w-80 rounded-2xl flex flex-col justify-center items-center h-40">
             <RiCustomerService2Line className=" text-3xl text-[green]" />
             <h2 className=" text-3xl font-bold">Fast Service</h2>
             <p className=" text-center">We value your time and make ordering easy</p>
         </div>
-         <div data-aos="zoom-in" data-aos-delay="3000" className=" bg-white text-black w-80 rounded-2xl flex flex-col justify-center items-center h-40">
+         <div data-aos="zoom-in" data-aos-delay="800" className=" bg-white text-black w-80 rounded-2xl flex flex-col justify-center items-center h-40">
             <MdPriceCheck className=" text-3xl text-[green]" />
             <h2 className=" text-3xl font-bold">Affordable Prices</h2>
             <p className=" text-center"> Enjoy satisfying meals at reasonable prices</p>

@@ -6,6 +6,7 @@ import { RouterProvider } from 'react-router-dom'
 import { element } from './routes/Router.tsx'
 import AOS from "aos"
 import "aos/dist/aos.css"
+import logo from "../src/assets/IMG2/Screenshot_2026-11-10_115151-removebg-preview.png"
 
 function Root () {
 
@@ -27,7 +28,10 @@ function Root () {
   if(isloading){
     return(
      <div className="w-full h-screen flex justify-center items-center bg-green-950">
-        <div className="w-100 h-90 flex justify-center items-center">
+        <div className="w-100 h-90 flex flex-col gap-6 justify-center items-center">
+          <div>
+            <img src={logo} className=' w-80 lg:w-100' alt="" />
+          </div>
           <div
   data-aos="zoom-in"
   data-aos-duration="2000"

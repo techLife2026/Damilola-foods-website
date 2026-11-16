@@ -2,7 +2,7 @@
 
 const Hero1 = () => {
   return (
-    <div className=" w-full flex flex-col gap-7  justify-center items-center h-screen bg-[url('bgfood3.png')] bg-cover bg-center  text-white">
+    <div className=" w-full flex flex-col gap-7  justify-center items-center h-screen bg-[url('/bgfood3.png')] bg-cover bg-center  text-white">
         <div className=" w-full h-screen bg-[#000000b0] flex flex-col gap-7  justify-center items-center">
             <div className="w-[90%] h-[90%]  flex flex-col items-center justify-center gap-10">
             <div className=" text-[#52be52] font-bold text-5xl">.CONTACT US</div>

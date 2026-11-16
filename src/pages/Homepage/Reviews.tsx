@@ -39,7 +39,7 @@ const Reviews = () => {
        The jollof rice was absolutely delicious! The taste was amazing, and the portion was generous. 
     </div>
     </div>
-     <div data-aos="fade-right" data-aos-delay="1000" className=" w-80 h-110 [box-shadow:0_0_10px_10px_green] rounded-2xl flex flex-col gap-4 justify-center items-center">
+     <div data-aos="fade-right"  className=" w-80 h-110 [box-shadow:0_0_10px_10px_green] rounded-2xl flex flex-col gap-4 justify-center items-center">
     <div className=" w-27 h-27 rounded-full bg-amber-700 ">
     <img src={male} className="rounded-full" alt="" />
     </div>
@@ -58,7 +58,7 @@ const Reviews = () => {
       I love their customer service. The food arrived fresh and was still hot. Definitely ordering again!
     </div>
     </div>
-     <div data-aos="fade-right" data-aos-delay="2000" className=" w-80 h-110 [box-shadow:0_0_10px_10px_green] rounded-2xl flex flex-col gap-4 justify-center items-center">
+     <div data-aos="fade-right"  className=" w-80 h-110 [box-shadow:0_0_10px_10px_green] rounded-2xl flex flex-col gap-4 justify-center items-center">
     <div className=" w-27 h-27 rounded-full bg-amber-700 ">
     <img src={female2} className="rounded-full w-27 h-27" alt="" />
     </div>
