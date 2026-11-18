@@ -28,7 +28,7 @@ const ShowCase = () => {
             <div className=" flex lg:flex-wrap lg:flex-row flex-col items-center justify-center gap-17">
 
 
-            <div data-aos="fade-right"  data-aos-easing="ease-in" className="   w-64 lg:w-80 h-90 rounded-2xl text-white [box-shadow:0_0_10px_10px_white]  flex flex-col gap-4 justify-start items-center">
+            <div data-aos="fade-right"  data-aos-easing="ease-in" className="   w-67 lg:w-80 h-90 rounded-2xl text-white [box-shadow:0_0_10px_10px_white]  flex flex-col gap-4 justify-start items-center">
             <img src={cripsy} className=" w-64 lg:w-80 rounded-t-2xl h-56" alt="" />
             <div>
             <div className=" text-[22px] font-medium ">Crispy French Fries</div>
@@ -38,7 +38,7 @@ const ShowCase = () => {
             </div>
             </div>
             
-              <div data-aos="fade-right"  data-aos-delay="500" data-aos-easing="ease-in" className=" w-64 lg:w-80 h-90 rounded-2xl text-white [box-shadow:0_0_10px_10px_white]  flex flex-col gap-4 justify-start items-center">
+              <div data-aos="fade-right"  data-aos-delay="500" data-aos-easing="ease-in" className=" w-67 lg:w-80 h-90 rounded-2xl text-white [box-shadow:0_0_10px_10px_white]  flex flex-col gap-4 justify-start items-center">
             <img src={double} className=" w-64 lg:w-80 rounded-t-2xl h-56" alt="" />
             <div>
             <div className=" lg:text-[22px] text-[17px] font-medium ">Double Cheese Burger</div>
@@ -47,7 +47,7 @@ const ShowCase = () => {
             </div>
             </div>
 
-            <div data-aos="fade-right"  data-aos-delay="1000" data-aos-easing="ease-in" className=" w-64 lg:w-80 h-90 rounded-2xl text-white [box-shadow:0_0_10px_10px_white]  flex flex-col gap-4 justify-start items-center">
+            <div data-aos="fade-right"  data-aos-delay="1000" data-aos-easing="ease-in" className=" w-67 lg:w-80 h-90 rounded-2xl text-white [box-shadow:0_0_10px_10px_white]  flex flex-col gap-4 justify-start items-center">
             <img src={panda} className=" w-64 lg:w-80 rounded-t-2xl h-56" alt="" />
             <div>
             <div className=" lg:text-[22px] text-[17px] font-medium ">Chicken Burger</div>
@@ -56,7 +56,7 @@ const ShowCase = () => {
             </div>
             </div>
 
-            <div data-aos="slide-up" data-aos-easing="ease-in" className=" w-64 lg:w-80 h-90 rounded-2xl text-white [box-shadow:0_0_10px_10px_white]  flex flex-col gap-4 justify-start items-center">
+            <div data-aos="fade-right" data-aos-easing="ease-in" className=" w-67 lg:w-80 h-90 rounded-2xl text-white [box-shadow:0_0_10px_10px_white]  flex flex-col gap-4 justify-start items-center">
             <img src={pepper} className=" w-64 lg:w-80 rounded-t-2xl h-56" alt="" />
             <div>
             <div className=" lg:text-[22px] text-[17px] font-medium ">Pepperoni Pizza</div>
@@ -65,7 +65,7 @@ const ShowCase = () => {
             </div>
             </div>
 
-              <div data-aos="slide-up" data-aos-easing="ease-in" className=" w-64 lg:w-80 h-90 rounded-2xl text-white [box-shadow:0_0_10px_10px_white]  flex flex-col gap-4 justify-start items-center">
+              <div data-aos="fade-right" data-aos-easing="ease-in" className=" w-67 lg:w-80 h-90 rounded-2xl text-white [box-shadow:0_0_10px_10px_white]  flex flex-col gap-4 justify-start items-center">
             <img src={chick} className=" w-64 lg:w-80 rounded-t-2xl h-56" alt="" />
             <div>
             <div className=" lg:text-[22px] text-[17px] font-medium ">Chicken Wings</div>
@@ -74,7 +74,7 @@ const ShowCase = () => {
             </div>
             </div>
 
-              <div data-aos="slide-up" data-aos-easing="ease-in" className=" w-64 lg:w-80 h-90 rounded-2xl text-white [box-shadow:0_0_10px_10px_white]  flex flex-col gap-4 justify-start items-center">
+              <div data-aos="fade-right" data-aos-easing="ease-in" className=" w-67 lg:w-80 h-90 rounded-2xl text-white [box-shadow:0_0_10px_10px_white]  flex flex-col gap-4 justify-start items-center">
             <img src={cook} className=" w-64 lg:w-80 rounded-t-2xl h-56" alt="" />
             <div>
             <div className=" lg:text-[22px] text-[17px] font-medium ">Chicken Wings</div>
@@ -83,7 +83,7 @@ const ShowCase = () => {
             </div>
             </div>
 
-               <div data-aos="flip-left" data-aos-easing="ease-in" className=" w-64 lg:w-80 h-90 rounded-2xl text-white [box-shadow:0_0_10px_10px_white]  flex flex-col gap-4 justify-start items-center">
+               <div data-aos="fade-right" data-aos-easing="ease-in" className=" w-67 lg:w-80 h-90 rounded-2xl text-white [box-shadow:0_0_10px_10px_white]  flex flex-col gap-4 justify-start items-center">
             <img src={bufalo} className=" w-64 lg:w-80 rounded-t-2xl h-56" alt="" />
             <div>
             <div className=" lg:text-[22px] text-[17px] font-medium ">Buffalo Wings</div>
@@ -92,7 +92,7 @@ const ShowCase = () => {
             </div>
             </div>
 
-                   <div data-aos="flip-left" data-aos-easing="ease-in" className="  w-64 lg:w-80 h-90 rounded-2xl text-white [box-shadow:0_0_10px_10px_white]  flex flex-col gap-4 justify-start items-center">
+                   <div data-aos="fade-right" data-aos-easing="ease-in" className="  w-67 lg:w-80 h-90 rounded-2xl text-white [box-shadow:0_0_10px_10px_white]  flex flex-col gap-4 justify-start items-center">
             <img src={fries} className=" w-64 lg:w-80 rounded-t-2xl h-56" alt="" />
             <div>
             <div className=" lg:text-[22px] text-[17px] font-medium ">French Fries</div>
@@ -101,7 +101,7 @@ const ShowCase = () => {
             </div>
             </div>
 
-                       <div data-aos="flip-left" data-aos-easing="ease-in" className="  w-64 lg:w-80 h-90 rounded-2xl text-white [box-shadow:0_0_10px_10px_white]  flex flex-col gap-4 justify-start items-center">
+                       <div data-aos="fade-right" data-aos-easing="ease-in" className="  w-67 lg:w-80 h-90 rounded-2xl text-white [box-shadow:0_0_10px_10px_white]  flex flex-col gap-4 justify-start items-center">
             <img src={stick} className=" w-64 lg:w-80 rounded-t-2xl h-56" alt="" />
             <div>
             <div className=" lg:text-[22px] text-[13px] font-medium ">Mozzarella Sticks</div>
