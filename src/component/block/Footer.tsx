@@ -22,7 +22,7 @@ const Footer = () => {
             </div>
             <div className="flex flex-col gap-2 lg:gap-3 ">
                 <div className="text-2xl"><b>Contact Us</b></div>
-                <div className="text-[16px] font-medium lg:text-[20px]">Lagos, Nigeria</div>
+                <div className="text-[16px] font-medium lg:text-[20px]">Ado-Ekiti, Nigeria</div>
                 <div className="text-[16px] font-medium lg:text-[20px] ">+234 807 129 0812</div>
                 <div className="text-[16px] font-medium lg:text-[20px] ">damilolasakaismail@gmail.com</div>
             </div>

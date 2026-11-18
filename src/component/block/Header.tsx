@@ -1,8 +1,7 @@
 // import React from 'react'
 import { useState } from "react";
 import logo from "../../assets/IMG2/Screenshot_2026-11-10_115151-removebg-preview.png"
-import { BsMenuButton } from "react-icons/bs";
-import { ImCancelCircle } from "react-icons/im";
+import { ImCancelCircle, ImMenu3 } from "react-icons/im";
 import { NavLink } from "react-router-dom";
 
 const Header = () => {
@@ -46,7 +45,7 @@ const Header = () => {
   </div>
   ) : (
   <div className="text-2xl text-white font-bold">
-           <BsMenuButton  onClick={dropdown}/>
+           <ImMenu3  onClick={dropdown}/>
   </div>
   )}
   {
